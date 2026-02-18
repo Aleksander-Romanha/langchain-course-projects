@@ -3,7 +3,7 @@
 ### Prerequisites
 
 - A package/project manager: [uv](https://docs.astral.sh/uv/) (recommended) or [pip](https://pypi.org/project/pip/)
-- Python >=3.12, <3.14  If you use `uv`, it will take care of this for you. [More info](#python-virtual-environments)
+- Python >=3.12, <3.14  If you use `uv`, it will take care of this for you.
 
 ### Installation
 
@@ -13,7 +13,7 @@ Make a copy of example.env
 cp example.env .env
 ```
 
-Edit the .env file to include the keys below for [Models](#model-providers) and optionally [LangSmith](#getting-started-with-langsmith)
+Edit the .env file to include the keys below for models and optionally LangSmith
 ```bash
 # Required
 OPENAI_API_KEY='your_openai_api_key_here'
@@ -28,7 +28,7 @@ LANGSMITH_PROJECT=lca-lc-foundation
 #LANGSMITH_ENDPOINT=https://eu.api.smith.langchain.com
 ```
 
-Make a virtual environment and install dependencies. [More info](#python-virtual-environments)
+Make a virtual environment and install dependencies.
 
 <details open>
 <summary>Using uv (recommended)</summary>
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 </details>
 
-### Run Notebooks [More Info](#development-environment)
+### Run Notebooks
 
 <details open>
 <summary>Using uv (recommended)</summary>
